@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>In the Suggestion Class Example, enter the word “Me” and select Mexico.</description>
+   <name>suggestion_class--browser_chrome</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b36728ec-6384-4f31-93d3-e2b4c718d80b</testCaseGuid>
+</TestCaseEntity>

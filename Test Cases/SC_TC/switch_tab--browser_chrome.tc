@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>In the Switch Tab Example, click the Open Tab button. Scroll on the new tab until you
+see the button below. Then take a screenshot that includes the button and save it with
+the name of the test case that you gave in the RTM. Don't close the window. Return to
+the first window.</description>
+   <name>switch_tab--browser_chrome</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f47319c-aa8f-44d3-84e6-f7ee4e07fb2a</testCaseGuid>
+</TestCaseEntity>

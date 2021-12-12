@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_suite--browser_chrome" time="127.865" tests="4" failures="0" errors="0">
+   <testsuite name="test_suite--browser_chrome" tests="4" failures="0" errors="0" time="127.865" skipped="0" timestamp="2021-12-12 04:46:42" hostname="r30_p - Cupra4444" id="Test Suites/SC_TS/test_suite--browser_chrome">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\r30_p\\git\\SC-Challenge\\Reports\\20211212_044640\\SC_TS\\test_suite--browser_chrome\\20211212_044640"/>
+         <property name="logFiles" value="C:\\Users\\r30_p\\git\\SC-Challenge\\Reports\\20211212_044640\\SC_TS\\test_suite--browser_chrome\\20211212_044640\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\r30_p\\git\\SC-Challenge\\Reports\\20211212_044640\\SC_TS\\test_suite--browser_chrome\\20211212_044640\\switch_tab"/>
+         <property name="hostName" value="r30_p - Cupra4444"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 96.0.4664.93"/>
+         <property name="hostAddress" value="192.168.31.59"/>
+         <property name="sessionId" value="cc9f46d3560c5a276472f4b99f9d9987"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SC_TC/dropdown--browser_chrome" time="21.293" classname="Test Cases/SC_TC/dropdown--browser_chrome" status="PASSED">
+         <system-out><![CDATA[2021-12-12 04:46:42 - [TEST_CASE][PASSED] - Test Cases/SC_TC/dropdown--browser_chrome: Test Cases/SC_TC/dropdown--browser_chrome
+
+2021-12-12 04:46:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-12 04:46:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-12 04:46:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-12 04:46:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-12 04:46:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:46:50 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:46:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-12 04:46:50 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-12 04:46:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:46:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:46:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Dropdown Example/Page_Practice Page/select_Select                     Option1  _bf898a"), "option2", true): All options with value 'option2' are selected in object 'Object Repository/Dropdown Example/Page_Practice Page/select_Select                     Option1  _bf898a'  using regular expression
+
+2021-12-12 04:46:55 - [MESSAGE][PASSED] - All options with value 'option2' are selected in object 'Object Repository/Dropdown Example/Page_Practice Page/select_Select                     Option1  _bf898a'  using regular expression
+
+2021-12-12 04:46:55 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:46:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:46:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Dropdown Example/Page_Practice Page/select_Select                     Option1  _bf898a"), "option3", true): All options with value 'option3' are selected in object 'Object Repository/Dropdown Example/Page_Practice Page/select_Select                     Option1  _bf898a'  using regular expression
+
+2021-12-12 04:46:59 - [MESSAGE][PASSED] - All options with value 'option3' are selected in object 'Object Repository/Dropdown Example/Page_Practice Page/select_Select                     Option1  _bf898a'  using regular expression
+
+2021-12-12 04:46:59 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:47:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:47:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-12 04:47:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SC_TC/suggestion_class--browser_chrome" time="19.911" classname="Test Cases/SC_TC/suggestion_class--browser_chrome" status="PASSED">
+         <system-out><![CDATA[2021-12-12 04:47:04 - [TEST_CASE][PASSED] - Test Cases/SC_TC/suggestion_class--browser_chrome: Test Cases/SC_TC/suggestion_class--browser_chrome
+
+2021-12-12 04:47:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-12 04:47:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-12 04:47:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-12 04:47:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-12 04:47:05 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:47:10 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:47:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-12 04:47:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-12 04:47:10 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:47:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:47:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suggestion Class Example/Page_Practice Page/input_Suggession Class Example_autocomplete"), "Me"): Text 'Me' is set on object 'Object Repository/Suggestion Class Example/Page_Practice Page/input_Suggession Class Example_autocomplete'
+
+2021-12-12 04:47:15 - [MESSAGE][PASSED] - Text 'Me' is set on object 'Object Repository/Suggestion Class Example/Page_Practice Page/input_Suggession Class Example_autocomplete'
+
+2021-12-12 04:47:15 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:47:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:47:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suggestion Class Example/Page_Practice Page/div_Mexico")): Object: 'Object Repository/Suggestion Class Example/Page_Practice Page/div_Mexico' is clicked on
+
+2021-12-12 04:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Suggestion Class Example/Page_Practice Page/div_Mexico' is clicked on
+
+2021-12-12 04:47:19 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:47:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:47:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-12 04:47:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SC_TC/switch_window--browser_chrome" time="55.028" classname="Test Cases/SC_TC/switch_window--browser_chrome" status="PASSED">
+         <system-out><![CDATA[2021-12-12 04:47:23 - [TEST_CASE][PASSED] - Test Cases/SC_TC/switch_window--browser_chrome: Test Cases/SC_TC/switch_window--browser_chrome
+
+2021-12-12 04:47:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-12 04:47:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-12 04:47:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-12 04:47:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-12 04:47:25 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:47:30 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:47:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-12 04:47:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-12 04:47:30 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:47:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:47:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Switch Window Example/Page_Practice Page/button_Open Window")): Object: 'Object Repository/Switch Window Example/Page_Practice Page/button_Open Window' is clicked on
+
+2021-12-12 04:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Switch Window Example/Page_Practice Page/button_Open Window' is clicked on
+
+2021-12-12 04:47:34 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:47:38 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:47:38 - [TEST_STEP][PASSED] - switchToWindowTitle("QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy"): Switched to window with title: 'QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy'
+
+2021-12-12 04:48:05 - [MESSAGE][PASSED] - Switched to window with title: 'QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy'
+
+2021-12-12 04:48:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-12 04:48:05 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-12 04:48:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/button_NO THANKS"), 4): Object 'Object Repository/Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/button_NO THANKS' is clickable
+
+2021-12-12 04:48:05 - [MESSAGE][PASSED] - Object 'Object Repository/Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/button_NO THANKS' is clickable
+
+2021-12-12 04:48:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/button_NO THANKS")): Object: 'Object Repository/Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/button_NO THANKS' is clicked on
+
+2021-12-12 04:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/button_NO THANKS' is clicked on
+
+2021-12-12 04:48:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:48:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:48:09 - [TEST_STEP][PASSED] - focus(findTestObject("Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/div_30 day Money Back GuaranteeWe would nev_bfdf08")): Object: 'Object Repository/Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/div_30 day Money Back GuaranteeWe would nev_bfdf08' is focused
+
+2021-12-12 04:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/div_30 day Money Back GuaranteeWe would nev_bfdf08' is focused
+
+2021-12-12 04:48:10 - [TEST_STEP][PASSED] - verifyTextPresent("", false): Text '' is present on page 
+
+2021-12-12 04:48:10 - [MESSAGE][PASSED] - Text '' is present on page 
+
+2021-12-12 04:48:10 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:48:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:48:14 - [TEST_STEP][PASSED] - closeWindowTitle("QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy"): Window with title: 'QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy' is closed
+
+2021-12-12 04:48:14 - [MESSAGE][PASSED] - Window with title: 'QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy' is closed
+
+2021-12-12 04:48:14 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:48:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:48:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-12 04:48:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SC_TC/switch_tab--browser_chrome" time="31.407" classname="Test Cases/SC_TC/switch_tab--browser_chrome" status="PASSED">
+         <system-out><![CDATA[2021-12-12 04:48:19 - [TEST_CASE][PASSED] - Test Cases/SC_TC/switch_tab--browser_chrome: Test Cases/SC_TC/switch_tab--browser_chrome
+
+2021-12-12 04:48:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-12 04:48:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-12 04:48:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-12 04:48:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-12 04:48:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:48:25 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:48:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-12 04:48:25 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-12 04:48:25 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:48:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Switch Tab Example/Page_Practice Page/a_Open Tab")): Object: 'Object Repository/Switch Tab Example/Page_Practice Page/a_Open Tab' is clicked on
+
+2021-12-12 04:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Switch Tab Example/Page_Practice Page/a_Open Tab' is clicked on
+
+2021-12-12 04:48:29 - [TEST_STEP][PASSED] - switchToWindowTitle("Rahul Shetty Academy"): Switched to window with title: 'Rahul Shetty Academy'
+
+2021-12-12 04:48:32 - [MESSAGE][PASSED] - Switched to window with title: 'Rahul Shetty Academy'
+
+2021-12-12 04:48:32 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:48:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:48:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Switch Tab Example/Page_Rahul Shetty Academy/a_VIEW ALL COURSES"), 0): Scroll to object 'Object Repository/Switch Tab Example/Page_Rahul Shetty Academy/a_VIEW ALL COURSES' successfully
+
+2021-12-12 04:48:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-12-12 04:48:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Switch Tab Example/Page_Rahul Shetty Academy/a_VIEW ALL COURSES' successfully
+
+2021-12-12 04:48:36 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:48:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:48:40 - [TEST_STEP][PASSED] - takeScreenshot("switch_tab", STOP_ON_FAILURE): Taking screenshot successfully
+
+2021-12-12 04:48:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\r30_p\\git\\SC-Challenge\\Reports\\20211212_044640\\SC_TS\\test_suite--browser_chrome\\20211212_044640\\switch_tab]]
+
+2021-12-12 04:48:40 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:48:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:48:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:48:45 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/AutomationPractice/' successfully
+
+2021-12-12 04:48:45 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-12-12 04:48:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-12-12 04:48:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-12 04:48:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-12 04:46:42 - [TEST_SUITE][PASSED] - test_suite--browser_chrome: Test Cases/SC_TC/switch_tab--browser_chrome]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
