@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Switch To Alert Example/Page_Practice Page/input_Switch To Alert Example_enter-name",
+      "brokenLocator": "//input[@id\u003d\u0027name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20211213_005224/SC_TS/test_suite--browser_chrome/20211213_005224/Object Repository/Switch To Alert Example/Page_Practice Page/input_Switch To Alert Example_enter-name_attributes.png"
+    }
+  ]
+}
