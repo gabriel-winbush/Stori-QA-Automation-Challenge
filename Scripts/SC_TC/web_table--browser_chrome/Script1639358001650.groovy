@@ -36,20 +36,20 @@ WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page
 
 WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_25'), '25')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_Learn JMETER from Scratch - (Performance_60f099'), 
-    'Learn JMETER from Scratch - (Performance + Load) Testing Tool')
+WebUI.getText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_Learn JMETER from Scratch - (Performance_60f099'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_35'), '35')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_25'), '25')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_QA Expert Course Software Testing  Bugzi_863c32'), 
-    'QA Expert Course :Software Testing + Bugzilla + SQL + Agile')
+WebUI.getText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_QA Expert Course Software Testing  Bugzi_863c32'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_25'), '25')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_Master Selenium Automation in simple Pyt_98e7ce'), 
-    'Master Selenium Automation in simple Python Language')
+WebUI.getText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_Master Selenium Automation in simple Pyt_98e7ce'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Web Table Example/Page_Practice Page/td_20'), '20')
 

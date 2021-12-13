@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Print the names of all the Engineers in the Web Table Fixed header.</description>
+   <name>web_table_fixed--browser_chrome</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3caf1de0-413b-452d-add5-38b6fb97773d</testCaseGuid>
+</TestCaseEntity>
