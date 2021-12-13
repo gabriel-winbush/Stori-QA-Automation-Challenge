@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>In the Web Table Example, print the number of courses that are $25. Then print their
+course names.</description>
+   <name>web_table--browser_chrome</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9577d5d-1b58-4664-8a10-529225437fc8</testCaseGuid>
+</TestCaseEntity>

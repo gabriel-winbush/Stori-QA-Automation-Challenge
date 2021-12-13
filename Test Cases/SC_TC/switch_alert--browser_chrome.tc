@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>In the Switch To Alert Example, type this string “Stori Card” and click the Alert button.
+Print the text in the alert and click on OK. Then type the same string and click on the
+Confirm button and print the text. Make sure that the string shown equals this “Hello
+Stori Card, Are you sure you want to confirm?” then click on OK.</description>
+   <name>switch_alert--browser_chrome</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1246c1cb-1abf-4686-8400-b2825a03a4b3</testCaseGuid>
+</TestCaseEntity>
