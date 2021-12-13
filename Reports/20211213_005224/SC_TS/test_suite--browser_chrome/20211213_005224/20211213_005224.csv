@@ -1,0 +1,134 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_suite--browser_chrome,Chrome 96.0.4664.93,,,2021-12-13 00:52:26,2021-12-13 00:55:30,3m - 4.131s,PASSED
+,,,,,,,
+Test Cases/SC_TC/dropdown--browser_chrome,Chrome 96.0.4664.93,"In the Dropdown Example, select option 2 and then option 3. The user should be able to see the change.",,2021-12-13 00:52:26,2021-12-13 00:52:49,22.626s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-13 00:52:26,2021-12-13 00:52:29,2.160s,PASSED
+navigateToUrl(url),Chrome 96.0.4664.93,,,2021-12-13 00:52:29,2021-12-13 00:52:35,6.419s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:52:35,2021-12-13 00:52:35,0.279s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:52:35,2021-12-13 00:52:39,4.039s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Dropdown Example/Page_Practice Page/select_Select                     Option1  _bf898a""), ""option2"", true)",Chrome 96.0.4664.93,,,2021-12-13 00:52:39,2021-12-13 00:52:40,0.331s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:52:40,2021-12-13 00:52:44,4.011s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Dropdown Example/Page_Practice Page/select_Select                     Option1  _bf898a""), ""option3"", true)",Chrome 96.0.4664.93,,,2021-12-13 00:52:44,2021-12-13 00:52:44,0.289s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:52:44,2021-12-13 00:52:48,4.010s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-13 00:52:48,2021-12-13 00:52:49,0.696s,PASSED
+,,,,,,,
+Test Cases/SC_TC/suggestion_class--browser_chrome,Chrome 96.0.4664.93,"In the Suggestion Class Example, enter the word “Me” and select Mexico.",,2021-12-13 00:52:49,2021-12-13 00:53:11,22.291s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-13 00:52:49,2021-12-13 00:52:50,1.226s,PASSED
+navigateToUrl(url),Chrome 96.0.4664.93,,,2021-12-13 00:52:50,2021-12-13 00:52:58,7.429s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:52:58,2021-12-13 00:52:58,0.258s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:52:58,2021-12-13 00:53:02,4.014s,PASSED
+"setText(findTestObject(""Object Repository/Suggestion Class Example/Page_Practice Page/input_Suggession Class Example_autocomplete""), ""Me"")",Chrome 96.0.4664.93,,,2021-12-13 00:53:02,2021-12-13 00:53:02,0.183s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:02,2021-12-13 00:53:06,4.003s,PASSED
+"click(findTestObject(""Object Repository/Suggestion Class Example/Page_Practice Page/div_Mexico""))",Chrome 96.0.4664.93,,,2021-12-13 00:53:06,2021-12-13 00:53:06,0.145s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:06,2021-12-13 00:53:10,4.014s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-13 00:53:10,2021-12-13 00:53:11,0.708s,PASSED
+,,,,,,,
+Test Cases/SC_TC/switch_alert--browser_chrome,Chrome 96.0.4664.93,"In the Switch To Alert Example, type this string “Stori Card” and click the Alert button.
+Print the text in the alert and click on OK. Then type the same string and click on the
+Confirm button and print the text. Make sure that the string shown equals this “Hello
+Stori Card, Are you sure you want to confirm?” then click on OK.",,2021-12-13 00:53:11,2021-12-13 00:53:40,29.337s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-13 00:53:11,2021-12-13 00:53:12,1.218s,PASSED
+navigateToUrl(url),Chrome 96.0.4664.93,,,2021-12-13 00:53:12,2021-12-13 00:53:19,6.160s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:53:19,2021-12-13 00:53:19,0.264s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:19,2021-12-13 00:53:23,4.015s,PASSED
+"setText(findTestObject(""Object Repository/Switch To Alert Example/Page_Practice Page/input_Switch To Alert Example_enter-name""), ""Stori Card"")",Chrome 96.0.4664.93,,,2021-12-13 00:53:23,2021-12-13 00:53:23,0.171s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:23,2021-12-13 00:53:27,4.007s,PASSED
+"click(findTestObject(""Object Repository/Switch To Alert Example/Page_Practice Page/input_Switch To Alert Example_alertbtn""))",Chrome 96.0.4664.93,,,2021-12-13 00:53:27,2021-12-13 00:53:27,0.120s,PASSED
+getAlertText(),Chrome 96.0.4664.93,,,2021-12-13 00:53:27,2021-12-13 00:53:27,0.019s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:27,2021-12-13 00:53:31,4.016s,PASSED
+"setText(findTestObject(""Object Repository/Switch To Alert Example/Page_Practice Page/input_Switch To Alert Example_enter-name""), ""Stori Card"")",Chrome 96.0.4664.93,,,2021-12-13 00:53:31,2021-12-13 00:53:31,0.181s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:31,2021-12-13 00:53:35,4.011s,PASSED
+"click(findTestObject(""Object Repository/Switch To Alert Example/Page_Practice Page/input_Switch To Alert Example_confirmbtn""))",Chrome 96.0.4664.93,,,2021-12-13 00:53:35,2021-12-13 00:53:36,0.113s,PASSED
+getAlertText(),Chrome 96.0.4664.93,,,2021-12-13 00:53:36,2021-12-13 00:53:36,0.005s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:36,2021-12-13 00:53:40,4.008s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-13 00:53:40,2021-12-13 00:53:40,0.712s,PASSED
+,,,,,,,
+Test Cases/SC_TC/switch_tab--browser_chrome,Chrome 96.0.4664.93,"In the Switch Tab Example, click the Open Tab button. Scroll on the new tab until you
+see the button below. Then take a screenshot that includes the button and save it with
+the name of the test case that you gave in the RTM. Don't close the window. Return to
+the first window.",,2021-12-13 00:53:40,2021-12-13 00:54:13,32.777s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-13 00:53:41,2021-12-13 00:53:42,1.217s,PASSED
+navigateToUrl(url),Chrome 96.0.4664.93,,,2021-12-13 00:53:42,2021-12-13 00:53:48,6.374s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:53:48,2021-12-13 00:53:48,0.265s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:48,2021-12-13 00:53:52,4.009s,PASSED
+"click(findTestObject(""Object Repository/Switch Tab Example/Page_Practice Page/a_Open Tab""))",Chrome 96.0.4664.93,,,2021-12-13 00:53:52,2021-12-13 00:53:53,0.129s,PASSED
+"switchToWindowTitle(""Rahul Shetty Academy"")",Chrome 96.0.4664.93,,,2021-12-13 00:53:53,2021-12-13 00:53:55,1.912s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:55,2021-12-13 00:53:59,4.003s,PASSED
+"scrollToElement(findTestObject(""Switch Tab Example/Page_Rahul Shetty Academy/a_VIEW ALL COURSES""), 0)",Chrome 96.0.4664.93,,,2021-12-13 00:53:59,2021-12-13 00:53:59,0.084s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:53:59,2021-12-13 00:54:03,4.012s,PASSED
+"takeScreenshot(""switch_tab"", STOP_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:54:03,2021-12-13 00:54:03,0.212s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:54:03,2021-12-13 00:54:07,4.008s,PASSED
+navigateToUrl(url),Chrome 96.0.4664.93,,,2021-12-13 00:54:07,2021-12-13 00:54:08,1.471s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:54:08,2021-12-13 00:54:12,4.012s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-13 00:54:12,2021-12-13 00:54:13,0.741s,PASSED
+,,,,,,,
+Test Cases/SC_TC/switch_window--browser_chrome,Chrome 96.0.4664.93,"In the Switch Window Example, click the Open Window button. If the 30 day money back
+guarantee text (example below) is not shown, fail the test. Close the new window.
+(Review the text of SELF PACED ONLINE TRAINING, IN DEPTH MATERIAL,
+LIFETIME INSTRUCTOR SUPPORT and RESUME PREPARATION and find the bugs here and
+document them in the RTM)",,2021-12-13 00:54:13,2021-12-13 00:54:48,34.894s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-13 00:54:13,2021-12-13 00:54:15,1.255s,PASSED
+navigateToUrl(url),Chrome 96.0.4664.93,,,2021-12-13 00:54:15,2021-12-13 00:54:21,6.087s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:54:21,2021-12-13 00:54:21,0.261s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:54:21,2021-12-13 00:54:25,4.002s,PASSED
+"click(findTestObject(""Object Repository/Switch Window Example/Page_Practice Page/button_Open Window""))",Chrome 96.0.4664.93,,,2021-12-13 00:54:25,2021-12-13 00:54:25,0.181s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:54:25,2021-12-13 00:54:29,4.015s,PASSED
+"switchToWindowTitle(""QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:29,2021-12-13 00:54:30,0.736s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:54:30,2021-12-13 00:54:30,0.131s,PASSED
+"waitForElementClickable(findTestObject(""Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/button_NO THANKS""), 4)",Chrome 96.0.4664.93,,,2021-12-13 00:54:30,2021-12-13 00:54:35,4.630s,PASSED
+"click(findTestObject(""Object Repository/Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/button_NO THANKS""))",Chrome 96.0.4664.93,,,2021-12-13 00:54:35,2021-12-13 00:54:35,0.153s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:54:35,2021-12-13 00:54:39,4.004s,PASSED
+"focus(findTestObject(""Switch Window Example/Page_QA Click Academy  Selenium,Jmeter,Soap_747ff4/div_30 day Money Back GuaranteeWe would nev_bfdf08""))",Chrome 96.0.4664.93,,,2021-12-13 00:54:39,2021-12-13 00:54:39,0.223s,PASSED
+"verifyTextPresent("""", false)",Chrome 96.0.4664.93,,,2021-12-13 00:54:39,2021-12-13 00:54:39,0.076s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:54:39,2021-12-13 00:54:43,4.002s,PASSED
+"closeWindowTitle(""QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:43,2021-12-13 00:54:43,0.089s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:54:43,2021-12-13 00:54:47,4.013s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-13 00:54:47,2021-12-13 00:54:48,0.728s,PASSED
+,,,,,,,
+Test Cases/SC_TC/web_table--browser_chrome,Chrome 96.0.4664.93,"In the Web Table Example, print the number of courses that are $25. Then print their
+course names.",,2021-12-13 00:54:48,2021-12-13 00:54:58,10.074s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-13 00:54:48,2021-12-13 00:54:49,1.200s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:49,2021-12-13 00:54:56,6.407s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:54:56,2021-12-13 00:54:56,0.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_30""), ""30"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:56,2021-12-13 00:54:56,0.085s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_25""), ""25"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:56,2021-12-13 00:54:56,0.076s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_Learn SQL in Practical  Database Testing_8b83a1""), STOP_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:54:56,2021-12-13 00:54:56,0.096s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_30""), ""30"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:56,2021-12-13 00:54:57,0.084s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_20""), ""20"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.108s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_25""), ""25"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.064s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_Learn JMETER from Scratch - (Performance_60f099""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.076s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_35""), ""35"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.076s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_25""), ""25"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.065s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_QA Expert Course Software Testing  Bugzi_863c32""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.093s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_25""), ""25"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.081s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_Master Selenium Automation in simple Pyt_98e7ce""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.076s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_20""), ""20"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.082s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Table Example/Page_Practice Page/td_0""), ""0"")",Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:57,0.089s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-13 00:54:57,2021-12-13 00:54:58,0.712s,PASSED
+,,,,,,,
+Test Cases/SC_TC/web_table_fixed--browser_chrome,Chrome 96.0.4664.93,Print the names of all the Engineers in the Web Table Fixed header.,,2021-12-13 00:54:58,2021-12-13 00:55:08,9.677s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-13 00:54:58,2021-12-13 00:55:00,1.246s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 96.0.4664.93,,,2021-12-13 00:55:00,2021-12-13 00:55:06,6.408s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:55:06,2021-12-13 00:55:06,0.264s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Alex""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:06,2021-12-13 00:55:06,0.119s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Ben""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:06,2021-12-13 00:55:06,0.083s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Dwayne""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:06,2021-12-13 00:55:07,0.077s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Ivory""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:07,2021-12-13 00:55:07,0.080s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Jack""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:07,2021-12-13 00:55:07,0.077s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Joe""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:07,2021-12-13 00:55:07,0.077s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Raymond""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:07,2021-12-13 00:55:07,0.076s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Ronaldo""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:07,2021-12-13 00:55:07,0.080s,PASSED
+"getText(findTestObject(""Object Repository/Web Table Fixed/Page_Practice Page/td_Smith""), CONTINUE_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-13 00:55:07,2021-12-13 00:55:07,0.080s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-13 00:55:07,2021-12-13 00:55:08,0.707s,PASSED
+,,,,,,,
+Test Cases/SC_TC/iframe--browser_chrome,Chrome 96.0.4664.93,"In the iFrame example, get the text highlighted in blue in the following image and print it.",,2021-12-13 00:55:08,2021-12-13 00:55:30,22.188s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-13 00:55:08,2021-12-13 00:55:09,1.201s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 96.0.4664.93,,,2021-12-13 00:55:09,2021-12-13 00:55:16,6.891s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-13 00:55:16,2021-12-13 00:55:16,0.269s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:55:16,2021-12-13 00:55:20,4.008s,PASSED
+"focus(findTestObject(""Iframe Example/Page_Practice Page/li_His mentorship program is most after in _c50a26""))",Chrome 96.0.4664.93,,,2021-12-13 00:55:20,2021-12-13 00:55:21,0.349s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:55:21,2021-12-13 00:55:25,4.015s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Iframe Example/Page_Practice Page/li_His mentorship program is most after in _c50a26""), ""His mentorship program is most after in the software testing community with long waiting period."")",Chrome 96.0.4664.93,,,2021-12-13 00:55:25,2021-12-13 00:55:25,0.302s,PASSED
+delay(4),Chrome 96.0.4664.93,,,2021-12-13 00:55:25,2021-12-13 00:55:29,4.004s,PASSED
+"getText(findTestObject(""Iframe Example/Page_Practice Page/li_His mentorship program is most after in _c50a26""))",Chrome 96.0.4664.93,,,2021-12-13 00:55:29,2021-12-13 00:55:29,0.158s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-13 00:55:29,2021-12-13 00:55:30,0.694s,PASSED
